@@ -20,11 +20,10 @@ First, clone the repository and install the necessary dependencies:
 
 ```
 git clone https://github.com/nguyenhoanganh2002/XTTSv2-Finetuning-for-New-Languages.git
-or next (error*raise pickle.UnpicklingError(_get_wo_message(str(e))) from None)
-git clone https://github.com/CrisChir/XTTSv2-Finetuning-for-New-Languages.git
-return torch.load(f, map_location=map_location, weights_only=False, **kwargs)
-cd XTTSv2-Finetuning-for-New-Languages
-pip install -r requirements.txt
+## 1.1 pickle security error (or next (error*raise pickle.UnpicklingError(_get_wo_message(str(e))) from None))
+    git clone https://github.com/CrisChir/XTTSv2-Finetuning-for-New-Languages.git
+    cd XTTSv2-Finetuning-for-New-Languages
+    pip install -r requirements.txt
 ```
 
 ## 2. Data Preparation
