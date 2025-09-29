@@ -21,7 +21,8 @@ First, clone the repository and install the necessary dependencies:
 ```
 git clone https://github.com/nguyenhoanganh2002/XTTSv2-Finetuning-for-New-Languages.git
 ```
-## 1.1 pickle security error 
+### 1.1 pickle security error 
+#### In case of pickle error 
 ```
     for this error : ...(or next (error*raise pickle.UnpicklingError(_get_wo_message(str(e))) from None))...
     git clone https://github.com/CrisChir/XTTSv2-Finetuning-for-New-Languages.git
