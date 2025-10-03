@@ -167,7 +167,7 @@ def train_gpt(metadatas, num_epochs, batch_size, grad_acumm, output_path, max_au
     config.log_model_step = 100
     config.save_step = save_step
     config.save_n_checkpoints = 1
-    config.save_checkpoints = True
+    config.save_checkpoints = False
     config.print_eval = False
     config.optimizer = "AdamW"
     config.optimizer_wd_only_on_weights = OPTIMIZER_WD_ONLY_ON_WEIGHTS
